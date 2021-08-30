@@ -1,0 +1,173 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:2:1-24:12
+MERGED from [de.golfgl.gdxgamesvcs:gdx-gamesvcs-android-gpgs:1.0.2] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5c8a2987b4d7c60316393a1b436756d2\gdx-gamesvcs-android-gpgs-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\6cf8544efd49c1c275a55f8eda877639\multidex-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-games:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5dcbb7c56794313ef2aadc2d90a21cc4\play-services-games-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\afe324864198267f090dd19b734b2cb0\play-services-drive-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\a08a3a433749a61136e83d200898a141\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\aae353ce2bce2c6c89ca6fd331bfaac0\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7f1bc710de76e1d3b6bbb2cab14181b4\play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\50dac9a853461cb9f4864cf791a63f20\support-v4-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7ff0c76e9e6e1121a1142722307fd5bc\support-media-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\8260f03eadd000d4379bc64a738b940a\support-fragment-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\1203067eb9265b1b2b408dd12cebd695\support-core-utils-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\b85fbab636094e4e34376eafbf84a2d1\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\24af64a035a9a44d736798e778335899\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\f4fc0744b5fda8ebe8281f5bacda1a9e\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:3:5-57
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:5:5-30
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:4:5-28
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+application
+ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:7:5-22:19
+MERGED from [de.golfgl.gdxgamesvcs:gdx-gamesvcs-android-gpgs:1.0.2] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5c8a2987b4d7c60316393a1b436756d2\gdx-gamesvcs-android-gpgs-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [de.golfgl.gdxgamesvcs:gdx-gamesvcs-android-gpgs:1.0.2] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5c8a2987b4d7c60316393a1b436756d2\gdx-gamesvcs-android-gpgs-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-games:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5dcbb7c56794313ef2aadc2d90a21cc4\play-services-games-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5dcbb7c56794313ef2aadc2d90a21cc4\play-services-games-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\afe324864198267f090dd19b734b2cb0\play-services-drive-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\afe324864198267f090dd19b734b2cb0\play-services-drive-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\a08a3a433749a61136e83d200898a141\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\a08a3a433749a61136e83d200898a141\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\aae353ce2bce2c6c89ca6fd331bfaac0\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\aae353ce2bce2c6c89ca6fd331bfaac0\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7f1bc710de76e1d3b6bbb2cab14181b4\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7f1bc710de76e1d3b6bbb2cab14181b4\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\50dac9a853461cb9f4864cf791a63f20\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\50dac9a853461cb9f4864cf791a63f20\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7ff0c76e9e6e1121a1142722307fd5bc\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7ff0c76e9e6e1121a1142722307fd5bc\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\8260f03eadd000d4379bc64a738b940a\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\8260f03eadd000d4379bc64a738b940a\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\1203067eb9265b1b2b408dd12cebd695\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\1203067eb9265b1b2b408dd12cebd695\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\b85fbab636094e4e34376eafbf84a2d1\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\b85fbab636094e4e34376eafbf84a2d1\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\24af64a035a9a44d736798e778335899\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\24af64a035a9a44d736798e778335899\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\f4fc0744b5fda8ebe8281f5bacda1a9e\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\f4fc0744b5fda8ebe8281f5bacda1a9e\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:9:9-45
+	android:allowBackup
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:11:9-40
+activity#com.superbinogo.jungleboyadventure.android.AndroidLauncher
+ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:12:9-21:20
+	android:screenOrientation
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:15:13-50
+	android:label
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:14:13-45
+	android:configChanges
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:16:13-83
+	android:name
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:13:13-86
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+MERGED from [de.golfgl.gdxgamesvcs:gdx-gamesvcs-android-gpgs:1.0.2] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5c8a2987b4d7c60316393a1b436756d2\gdx-gamesvcs-android-gpgs-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [de.golfgl.gdxgamesvcs:gdx-gamesvcs-android-gpgs:1.0.2] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5c8a2987b4d7c60316393a1b436756d2\gdx-gamesvcs-android-gpgs-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\6cf8544efd49c1c275a55f8eda877639\multidex-1.0.2\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\6cf8544efd49c1c275a55f8eda877639\multidex-1.0.2\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5dcbb7c56794313ef2aadc2d90a21cc4\play-services-games-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\5dcbb7c56794313ef2aadc2d90a21cc4\play-services-games-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\afe324864198267f090dd19b734b2cb0\play-services-drive-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:16.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\afe324864198267f090dd19b734b2cb0\play-services-drive-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\a08a3a433749a61136e83d200898a141\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\a08a3a433749a61136e83d200898a141\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\aae353ce2bce2c6c89ca6fd331bfaac0\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\aae353ce2bce2c6c89ca6fd331bfaac0\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7f1bc710de76e1d3b6bbb2cab14181b4\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7f1bc710de76e1d3b6bbb2cab14181b4\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\50dac9a853461cb9f4864cf791a63f20\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\50dac9a853461cb9f4864cf791a63f20\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7ff0c76e9e6e1121a1142722307fd5bc\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7ff0c76e9e6e1121a1142722307fd5bc\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\8260f03eadd000d4379bc64a738b940a\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\8260f03eadd000d4379bc64a738b940a\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\1203067eb9265b1b2b408dd12cebd695\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\1203067eb9265b1b2b408dd12cebd695\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\b85fbab636094e4e34376eafbf84a2d1\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\b85fbab636094e4e34376eafbf84a2d1\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\24af64a035a9a44d736798e778335899\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\24af64a035a9a44d736798e778335899\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\f4fc0744b5fda8ebe8281f5bacda1a9e\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\f4fc0744b5fda8ebe8281f5bacda1a9e\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\50dac9a853461cb9f4864cf791a63f20\support-v4-26.1.0\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+		ADDED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+		INJECTED from D:\git\Android\BinoRemake\android\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\a08a3a433749a61136e83d200898a141\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\a08a3a433749a61136e83d200898a141\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\a08a3a433749a61136e83d200898a141\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\a08a3a433749a61136e83d200898a141\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7f1bc710de76e1d3b6bbb2cab14181b4\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7f1bc710de76e1d3b6bbb2cab14181b4\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7f1bc710de76e1d3b6bbb2cab14181b4\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\50dac9a853461cb9f4864cf791a63f20\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7ff0c76e9e6e1121a1142722307fd5bc\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\7ff0c76e9e6e1121a1142722307fd5bc\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\8260f03eadd000d4379bc64a738b940a\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\8260f03eadd000d4379bc64a738b940a\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\1203067eb9265b1b2b408dd12cebd695\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\1203067eb9265b1b2b408dd12cebd695\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\b85fbab636094e4e34376eafbf84a2d1\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\b85fbab636094e4e34376eafbf84a2d1\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\24af64a035a9a44d736798e778335899\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\24af64a035a9a44d736798e778335899\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\50dac9a853461cb9f4864cf791a63f20\support-v4-26.1.0\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\50dac9a853461cb9f4864cf791a63f20\support-v4-26.1.0\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\f4fc0744b5fda8ebe8281f5bacda1a9e\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\f4fc0744b5fda8ebe8281f5bacda1a9e\runtime-1.0.0\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Leoo\.gradle\caches\transforms-2\files-2.1\f4fc0744b5fda8ebe8281f5bacda1a9e\runtime-1.0.0\AndroidManifest.xml:26:13-58

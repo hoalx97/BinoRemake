@@ -1,0 +1,83 @@
+
+store-pack.png
+size: 636, 636
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bestvalue_tag
+  rotate: false
+  xy: 558, 567
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+button_cancel
+  rotate: false
+  xy: 256, 301
+  size: 216, 108
+  orig: 216, 108
+  offset: 0, 0
+  index: -1
+buy_button
+  rotate: false
+  xy: 256, 187
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+buy_button_glow
+  rotate: false
+  xy: 472, 129
+  size: 136, 280
+  orig: 136, 280
+  offset: 0, 0
+  index: -1
+clock_store
+  rotate: false
+  xy: 0, 1
+  size: 230, 80
+  orig: 230, 80
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 0, 153
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+sale_buy_button
+  rotate: false
+  xy: 0, 83
+  size: 352, 68
+  orig: 352, 68
+  offset: 0, 0
+  index: -1
+sale_tag
+  rotate: false
+  xy: 558, 499
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+store_items_icon
+  rotate: false
+  xy: 0, 411
+  size: 558, 222
+  orig: 558, 222
+  offset: 0, 0
+  index: -1
+strike_through
+  rotate: false
+  xy: 230, 49
+  size: 116, 32
+  orig: 116, 32
+  offset: 0, 0
+  index: -1
+watch_ads_store_button
+  rotate: false
+  xy: 352, 15
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1

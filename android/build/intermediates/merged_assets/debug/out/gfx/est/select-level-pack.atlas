@@ -1,0 +1,55 @@
+
+select-level-pack.png
+size: 528, 528
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+back_button
+  rotate: false
+  xy: 0, 0
+  size: 266, 132
+  orig: 266, 132
+  offset: 0, 0
+  index: -1
+blank_button
+  rotate: false
+  xy: 0, 396
+  size: 396, 132
+  orig: 396, 132
+  offset: 0, 0
+  index: -1
+castle
+  rotate: false
+  xy: 266, 230
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+change_button
+  rotate: false
+  xy: 0, 132
+  size: 266, 132
+  orig: 266, 132
+  offset: 0, 0
+  index: -1
+stars
+  rotate: false
+  xy: 396, 408
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+store_button
+  rotate: false
+  xy: 0, 264
+  size: 266, 132
+  orig: 266, 132
+  offset: 0, 0
+  index: -1
+video_reward
+  rotate: false
+  xy: 266, 290
+  size: 128, 106
+  orig: 128, 106
+  offset: 0, 0
+  index: -1

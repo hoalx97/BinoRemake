@@ -1,0 +1,111 @@
+
+menu-pack.png
+size: 628, 628
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+50_coins
+  rotate: false
+  xy: 448, 107
+  size: 167, 109
+  orig: 167, 109
+  offset: 0, 0
+  index: -1
+achievements_main_button
+  rotate: false
+  xy: 316, 414
+  size: 212, 106
+  orig: 212, 106
+  offset: 0, 0
+  index: -1
+anchor_text
+  rotate: false
+  xy: 436, 16
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+box_rate
+  rotate: false
+  xy: 0, 111
+  size: 448, 96
+  orig: 448, 96
+  offset: 0, 0
+  index: -1
+button_cancel
+  rotate: false
+  xy: 316, 520
+  size: 216, 108
+  orig: 216, 108
+  offset: 0, 0
+  index: -1
+button_like_us
+  rotate: false
+  xy: 288, 216
+  size: 201, 92
+  orig: 201, 92
+  offset: 0, 0
+  index: -1
+claim_btn
+  rotate: false
+  xy: 0, 207
+  size: 288, 132
+  orig: 288, 132
+  offset: 0, 0
+  index: -1
+leaderboards_button
+  rotate: false
+  xy: 316, 308
+  size: 212, 106
+  orig: 212, 106
+  offset: 0, 0
+  index: -1
+mario_with_presents
+  rotate: false
+  xy: 0, 339
+  size: 316, 289
+  orig: 316, 289
+  offset: 0, 0
+  index: -1
+menu_big_effects
+  rotate: false
+  xy: 532, 533
+  size: 96, 95
+  orig: 96, 95
+  offset: 0, 0
+  index: -1
+slider_button
+  rotate: false
+  xy: 443, 30
+  size: 148, 77
+  orig: 148, 77
+  offset: 0, 0
+  index: -1
+sound_adjust_screen
+  rotate: false
+  xy: 0, 0
+  size: 436, 21
+  orig: 436, 21
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 489, 246
+  size: 63, 62
+  orig: 63, 62
+  offset: 0, 0
+  index: 1
+star
+  rotate: false
+  xy: 532, 481
+  size: 53, 52
+  orig: 53, 52
+  offset: 0, 0
+  index: 2
+text_box
+  rotate: false
+  xy: 0, 21
+  size: 443, 90
+  orig: 443, 90
+  offset: 0, 0
+  index: -1

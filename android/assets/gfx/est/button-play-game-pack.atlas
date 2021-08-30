@@ -1,0 +1,62 @@
+
+button-play-game-pack.png
+size: 736, 736
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+d_pad
+  rotate: false
+  xy: 0, 189
+  size: 300, 360
+  orig: 300, 360
+  offset: 0, 0
+  index: -1
+down_button
+  rotate: false
+  xy: 0, 22
+  size: 157, 69
+  orig: 157, 69
+  offset: 0, 0
+  index: -1
+dpad_button
+  rotate: false
+  xy: 376, 117
+  size: 83, 60
+  orig: 83, 60
+  offset: 0, 0
+  index: -1
+jump_arrow
+  rotate: false
+  xy: 300, 365
+  size: 370, 184
+  orig: 370, 184
+  offset: 0, 0
+  index: -1
+pause_button
+  rotate: false
+  xy: 0, 93
+  size: 188, 94
+  orig: 188, 94
+  offset: 0, 0
+  index: -1
+shot_button
+  rotate: false
+  xy: 300, 179
+  size: 370, 184
+  orig: 370, 184
+  offset: 0, 0
+  index: -1
+shot_by_coin_button
+  rotate: false
+  xy: 0, 551
+  size: 736, 184
+  orig: 736, 184
+  offset: 0, 0
+  index: -1
+store_button
+  rotate: false
+  xy: 188, 83
+  size: 188, 94
+  orig: 188, 94
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\git\\Android\\SuperMario\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\git\\Android\\SuperMario\\android\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\Android\\SuperMario\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\git\\Android\\SuperMario\\android\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\Android\\SuperMario\\android\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\git\\Android\\SuperMario\\android\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\Android\\SuperMario\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\git\\Android\\SuperMario\\android\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]
