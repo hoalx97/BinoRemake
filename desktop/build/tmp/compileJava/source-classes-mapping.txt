@@ -1,2 +1,2 @@
-com/brentaureli/mariobros/desktop/DesktopLauncher.java
- com.brentaureli.mariobros.desktop.DesktopLauncher
+com/superbinogo/jungleboyadventure/desktop/DesktopLauncher.java
+ com.superbinogo.jungleboyadventure.desktop.DesktopLauncher

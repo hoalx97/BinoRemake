@@ -29,17 +29,26 @@ public class Controller {
         Gdx.input.setInputProcessor(stage);
 
         Table table = new Table();
-        table.left().bottom();
+        table.defaults().pad(10F);
+        table.setFillParent(true);
+        table.setDebug(true);
+
+        Table first_table = new Table();
+        first_table.setDebug(true);
+        first_table.left();
+
+        Table second_table = new Table();
+        second_table.right();
+
+        table.add(first_table).left().bottom().expand();
+        table.add(second_table).right().bottom().expand();
+
 
         Image upImg = new Image(new Texture("gfx\\a1024\\game\\up.png"));
         upImg.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                jumps++;
-                if (jumps == maxJumps) {
-                    upPressed = true;
-                }
-
+                upPressed = true;
                 return true;
             }
 
@@ -54,8 +63,7 @@ public class Controller {
         downImg.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                if (!downPressed)
-                    downPressed = true;
+                downPressed = true;
                 return true;
             }
 
@@ -69,8 +77,7 @@ public class Controller {
         rightImg.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                if (!rightPressed)
-                    rightPressed = true;
+                rightPressed = true;
                 return true;
             }
 
@@ -85,8 +92,7 @@ public class Controller {
 
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                if (!leftPressed)
-                    leftPressed = true;
+                leftPressed = true;
                 return true;
             }
 
@@ -96,17 +102,20 @@ public class Controller {
             }
         });
 
-        table.add();
-        table.add(upImg).size(upImg.getWidth(), upImg.getHeight());
-        table.add();
-        table.row().pad(5, 5, 5, 5);
-        table.add(leftImg).size(leftImg.getWidth(), leftImg.getHeight());
-        table.add();
-        table.add(rightImg).size(rightImg.getWidth(), rightImg.getHeight());
-        table.row().padBottom(5);
-        table.add();
-        table.add(downImg).size(downImg.getWidth(), downImg.getHeight());
-        table.add();
+        second_table.add();
+        second_table.add(upImg).size(upImg.getWidth(), upImg.getHeight());
+        first_table.add();
+        first_table.row().pad(5, 5, 5, 5);
+        first_table.add(leftImg).size(leftImg.getWidth(), leftImg.getHeight());
+        first_table.add();
+        first_table.add(rightImg).size(rightImg.getWidth(), rightImg.getHeight());
+        first_table.row().padBottom(5);
+        first_table.add();
+        first_table.add(downImg).size(downImg.getWidth(), downImg.getHeight());
+        first_table.add();
+
+
+
 
         stage.addActor(table);
     }

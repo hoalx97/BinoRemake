@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BinoRemake.iml" filepath="$PROJECT_DIR$/.idea/modules/BinoRemake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/BinoRemake.android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/BinoRemake.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/BinoRemake.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/BinoRemake.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/BinoRemake.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/BinoRemake.desktop.iml" />
+    </modules>
+  </component>
+</project>

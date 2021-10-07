@@ -14,6 +14,7 @@ import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.Array;
+import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.superbinogo.jungleboyadventure.MarioBros;
@@ -68,7 +69,7 @@ public class PlayScreen implements Screen {
         gamecam = new OrthographicCamera();
 
         //create a FitViewport to maintain virtual aspect ratio despite screen size
-        gamePort = new FitViewport(MarioBros.V_WIDTH / MarioBros.PPM, MarioBros.V_HEIGHT / MarioBros.PPM, gamecam);
+        gamePort = new FitViewport(Gdx.graphics.getWidth() / MarioBros.PPM, Gdx.graphics.getHeight() / MarioBros.PPM, gamecam);
 
         //create our game HUD for scores/timers/level info
         hud = new Hud(game.batch);
@@ -76,7 +77,7 @@ public class PlayScreen implements Screen {
 
         //Load our map and setup our map renderer
         maploader = new TmxMapLoader();
-        map = maploader.load("level1.tmx");
+        map = maploader.load("tmx/level1.tmx");
         renderer = new OrthogonalTiledMapRenderer(map, 1 / MarioBros.PPM);
 
         //initially set our gamcam to be centered correctly at the start of of map
@@ -131,12 +132,16 @@ public class PlayScreen implements Screen {
     public void handleInput(float dt) {
         //control our player using immediate impulses
         if (player.currentState != Mario.State.DEAD) {
-            if (controller.isUpPressed())
+            if (controller.isUpPressed()) {
                 player.jump();
-            if (controller.isRightPressed() && player.b2body.getLinearVelocity().x <= 2)
-                player.b2body.applyLinearImpulse(new Vector2(0.1f, 0), player.b2body.getWorldCenter(), true);
-            if (controller.isLeftPressed() && player.b2body.getLinearVelocity().x >= -2)
-                player.b2body.applyLinearImpulse(new Vector2(-0.1f, 0), player.b2body.getWorldCenter(), true);
+            }
+            if (controller.isRightPressed()) {
+                player.right();
+            } else if (controller.isLeftPressed()) {
+                player.left();
+            } else {
+                player.stand();
+            }
             if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE))
                 player.fire();
         }
