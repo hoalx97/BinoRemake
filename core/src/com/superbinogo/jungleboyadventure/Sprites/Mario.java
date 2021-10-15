@@ -70,41 +70,41 @@ public class Mario extends Sprite {
 
         //get run animation frames and add them to marioRun Animation
         for (int i = 1; i < 4; i++)
-            frames.add(new TextureRegion(screen.getAtlas().findRegion("little_mario"), i * 16, 0, 16, 16));
+            frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), i * 16, 0, 128, 128));
         marioRun = new Animation(0.1f, frames);
 
         frames.clear();
 
         for (int i = 1; i < 4; i++)
-            frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), i * 16, 0, 16, 32));
+            frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), i * 16, 0, 128, 128));
         bigMarioRun = new Animation(0.1f, frames);
 
         frames.clear();
 
         //get set animation frames from growing mario
-        frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), 240, 0, 16, 32));
-        frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), 0, 0, 16, 32));
-        frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), 240, 0, 16, 32));
-        frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), 0, 0, 16, 32));
+        frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), 240, 0, 128, 128));
+        frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), 0, 0, 128, 128));
+        frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), 240, 0, 128, 128));
+        frames.add(new TextureRegion(screen.getAtlas().findRegion("big_mario"), 0, 0, 128, 128));
         growMario = new Animation(0.2f, frames);
 
 
         //get jump animation frames and add them to marioJump Animation
-        marioJump = new TextureRegion(screen.getAtlas().findRegion("little_mario"), 80, 0, 16, 16);
-        bigMarioJump = new TextureRegion(screen.getAtlas().findRegion("big_mario"), 80, 0, 16, 32);
+        marioJump = new TextureRegion(screen.getAtlas().findRegion("big_mario"), 80, 0, 128, 128);
+        bigMarioJump = new TextureRegion(screen.getAtlas().findRegion("big_mario"), 80, 0, 128, 128);
 
         //create texture region for mario standing
-        marioStand = new TextureRegion(screen.getAtlas().findRegion("little_mario"), 0, 0, 16, 16);
-        bigMarioStand = new TextureRegion(screen.getAtlas().findRegion("big_mario"), 0, 0, 16, 32);
+        marioStand = new TextureRegion(screen.getAtlas().findRegion("big_mario"), 0, 0, 128, 128);
+        bigMarioStand = new TextureRegion(screen.getAtlas().findRegion("big_mario"), 0, 0, 128, 128);
 
         //create dead mario texture region
-        marioDead = new TextureRegion(screen.getAtlas().findRegion("little_mario"), 96, 0, 16, 16);
+        marioDead = new TextureRegion(screen.getAtlas().findRegion("big_mario"), 96, 0, 128, 128);
 
         //define mario in Box2d
         defineMario();
 
         //set initial values for marios location, width and height. And initial frame as marioStand.
-        setBounds(0, 0, 16 / MarioBros.PPM, 16 / MarioBros.PPM);
+        setBounds(0, 0, 128 / MarioBros.PPM, 128 / MarioBros.PPM);
         setRegion(marioStand);
 
         fireballs = new Array<FireBall>();
@@ -372,7 +372,7 @@ public class Mario extends Sprite {
 
     public void defineMario() {
         BodyDef bdef = new BodyDef();
-        bdef.position.set(32 / MarioBros.PPM, 32 / MarioBros.PPM);
+        bdef.position.set(576 / MarioBros.PPM, 280 / MarioBros.PPM);
         bdef.type = BodyDef.BodyType.DynamicBody;
         b2body = world.createBody(bdef);
 

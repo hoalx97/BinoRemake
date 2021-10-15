@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\git\\Android\\BinoRemake\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "C:\\Users\\mrhoa\\AndroidStudioProjects\\BinoRemake\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Leoo\\.gradle\\caches\\transforms-2\\files-2.1\\24af64a035a9a44d736798e778335899\\support-compat-26.1.0\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\mrhoa\\.gradle\\caches\\transforms-2\\files-2.1\\24af64a035a9a44d736798e778335899\\support-compat-26.1.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

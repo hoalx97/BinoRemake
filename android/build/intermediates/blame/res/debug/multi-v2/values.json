@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\git\\Android\\BinoRemake\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\mrhoa\\AndroidStudioProjects\\BinoRemake\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Leoo\\.gradle\\caches\\transforms-2\\files-2.1\\24af64a035a9a44d736798e778335899\\support-compat-26.1.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\mrhoa\\.gradle\\caches\\transforms-2\\files-2.1\\24af64a035a9a44d736798e778335899\\support-compat-26.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,53,54,58,59,60,6,15",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "D:\\git\\Android\\BinoRemake\\android\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\mrhoa\\AndroidStudioProjects\\BinoRemake\\android\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Leoo\\.gradle\\caches\\transforms-2\\files-2.1\\a08a3a433749a61136e83d200898a141\\play-services-base-16.0.1\\res\\values\\values.xml",
+                    "source": "C:\\Users\\mrhoa\\.gradle\\caches\\transforms-2\\files-2.1\\a08a3a433749a61136e83d200898a141\\play-services-base-16.0.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,33,46",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -59,7 +59,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Leoo\\.gradle\\caches\\transforms-2\\files-2.1\\7f1bc710de76e1d3b6bbb2cab14181b4\\play-services-basement-16.0.1\\res\\values\\values.xml",
+                    "source": "C:\\Users\\mrhoa\\.gradle\\caches\\transforms-2\\files-2.1\\7f1bc710de76e1d3b6bbb2cab14181b4\\play-services-basement-16.0.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "0,0",
@@ -76,7 +76,24 @@
                     }
                 },
                 {
-                    "source": "D:\\git\\Android\\BinoRemake\\android\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\mrhoa\\.gradle\\caches\\transforms-2\\files-2.1\\7ff0c76e9e6e1121a1142722307fd5bc\\support-media-compat-26.1.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,348,414,536,597,663",
+                        "endColumns": "88,70,72,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,343,409,531,592,658,725"
+                    },
+                    "to": {
+                        "startLines": "12,13,15,44,80,82,83,88,90",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "908,997,1126,2914,6345,6521,6643,6905,7100",
+                        "endColumns": "88,70,72,59,65,121,60,65,66",
+                        "endOffsets": "992,1063,1194,2969,6406,6638,6699,6966,7162"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mrhoa\\AndroidStudioProjects\\BinoRemake\\android\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -92,23 +109,6 @@
                         "endLines": "74",
                         "endColumns": "12",
                         "endOffsets": "6022"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Leoo\\.gradle\\caches\\transforms-2\\files-2.1\\7ff0c76e9e6e1121a1142722307fd5bc\\support-media-compat-26.1.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,144,215,288,348,414,536,597,663",
-                        "endColumns": "88,70,72,59,65,121,60,65,66",
-                        "endOffsets": "139,210,283,343,409,531,592,658,725"
-                    },
-                    "to": {
-                        "startLines": "12,13,15,44,80,82,83,88,90",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "908,997,1126,2914,6345,6521,6643,6905,7100",
-                        "endColumns": "88,70,72,59,65,121,60,65,66",
-                        "endOffsets": "992,1063,1194,2969,6406,6638,6699,6966,7162"
                     }
                 }
             ]

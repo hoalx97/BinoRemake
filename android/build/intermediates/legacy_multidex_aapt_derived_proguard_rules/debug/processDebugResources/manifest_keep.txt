@@ -1,2 +1,2 @@
-# Referenced at D:\git\Android\BinoRemake\android\build\intermediates\merged_manifests\debug\AndroidManifest.xml:11
+# Referenced at C:\Users\mrhoa\AndroidStudioProjects\BinoRemake\android\build\intermediates\merged_manifests\debug\AndroidManifest.xml:11
 -keep class android.support.multidex.MultiDexApplication { <init>(); }

@@ -98,19 +98,8 @@ android/support/mediacompat/R.java
  android.support.mediacompat.R$string
  android.support.mediacompat.R$style
  android.support.mediacompat.R$styleable
-com/superbinogo/jungleboyadventure/android/R.java
- com.superbinogo.jungleboyadventure.android.R
- com.superbinogo.jungleboyadventure.android.R$attr
- com.superbinogo.jungleboyadventure.android.R$bool
- com.superbinogo.jungleboyadventure.android.R$color
- com.superbinogo.jungleboyadventure.android.R$dimen
- com.superbinogo.jungleboyadventure.android.R$drawable
- com.superbinogo.jungleboyadventure.android.R$id
- com.superbinogo.jungleboyadventure.android.R$integer
- com.superbinogo.jungleboyadventure.android.R$layout
- com.superbinogo.jungleboyadventure.android.R$string
- com.superbinogo.jungleboyadventure.android.R$style
- com.superbinogo.jungleboyadventure.android.R$styleable
+com/superbinogo/jungleboyadventure/android/AndroidLauncher.java
+ com.superbinogo.jungleboyadventure.android.AndroidLauncher
 com/google/android/gms/drive/R.java
  com.google.android.gms.drive.R
 android/support/coreui/R.java
@@ -126,5 +115,16 @@ android/support/coreui/R.java
  android.support.coreui.R$string
  android.support.coreui.R$style
  android.support.coreui.R$styleable
-com/superbinogo/jungleboyadventure/android/AndroidLauncher.java
- com.superbinogo.jungleboyadventure.android.AndroidLauncher
+com/superbinogo/jungleboyadventure/android/R.java
+ com.superbinogo.jungleboyadventure.android.R
+ com.superbinogo.jungleboyadventure.android.R$attr
+ com.superbinogo.jungleboyadventure.android.R$bool
+ com.superbinogo.jungleboyadventure.android.R$color
+ com.superbinogo.jungleboyadventure.android.R$dimen
+ com.superbinogo.jungleboyadventure.android.R$drawable
+ com.superbinogo.jungleboyadventure.android.R$id
+ com.superbinogo.jungleboyadventure.android.R$integer
+ com.superbinogo.jungleboyadventure.android.R$layout
+ com.superbinogo.jungleboyadventure.android.R$string
+ com.superbinogo.jungleboyadventure.android.R$style
+ com.superbinogo.jungleboyadventure.android.R$styleable
