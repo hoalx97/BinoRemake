@@ -14,7 +14,6 @@ import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.Array;
-import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.superbinogo.jungleboyadventure.MarioBros;
@@ -33,7 +32,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class PlayScreen implements Screen {
     //Reference to our Game, used to set Screens
     private MarioBros game;
-    private TextureAtlas atlas;
+    private TextureAtlas enemiesAtlas;
+    private TextureAtlas playerAtlas;
     public static boolean alreadyDestroyed = false;
 
     //basic playscreen variables
@@ -62,7 +62,8 @@ public class PlayScreen implements Screen {
 
 
     public PlayScreen(MarioBros game) {
-        atlas = new TextureAtlas("Mario_and_Enemies.pack");
+        enemiesAtlas = new TextureAtlas("enemy-pack.atlas");
+        playerAtlas = new TextureAtlas("PlayerPack.atlas");
 
         this.game = game;
         //create cam used to follow mario through cam world
@@ -84,7 +85,7 @@ public class PlayScreen implements Screen {
         gamecam.position.set(gamePort.getWorldWidth() / 2, gamePort.getWorldHeight() / 2, 0);
 
         //create our Box2D world, setting no gravity in X, -10 gravity in Y, and allow bodies to sleep
-        world = new World(new Vector2(0, -10), true);
+        world = new World(new Vector2(0, -13), true);
         //allows for debug lines of our box2d world.
         b2dr = new Box2DDebugRenderer();
 
@@ -119,8 +120,12 @@ public class PlayScreen implements Screen {
     }
 
 
-    public TextureAtlas getAtlas() {
-        return atlas;
+    public TextureAtlas getEnemiesAtlas() {
+        return enemiesAtlas;
+    }
+
+    public TextureAtlas getPlayerAtlas() {
+        return playerAtlas;
     }
 
     @Override

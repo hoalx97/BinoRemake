@@ -14,8 +14,7 @@ import com.superbinogo.jungleboyadventure.MarioBros;
 import com.superbinogo.jungleboyadventure.Screens.PlayScreen;
 import com.superbinogo.jungleboyadventure.Sprites.Mario;
 
-public class Goomba extends com.superbinogo.jungleboyadventure.Sprites.Enemies.Enemy
-{
+public class Goomba extends com.superbinogo.jungleboyadventure.Sprites.Enemies.Enemy {
     private float stateTime;
     private Animation<TextureRegion> walkAnimation;
     private Array<TextureRegion> frames;
@@ -27,25 +26,24 @@ public class Goomba extends com.superbinogo.jungleboyadventure.Sprites.Enemies.E
     public Goomba(PlayScreen screen, float x, float y) {
         super(screen, x, y);
         frames = new Array<TextureRegion>();
-        for(int i = 0; i < 2; i++)
-            frames.add(new TextureRegion(screen.getAtlas().findRegion("goomba"), i * 16, 0, 16, 16));
-        walkAnimation = new Animation(0.4f, frames);
+        for (int i = 0; i < 8; i++)
+            frames.add(new TextureRegion(screen.getEnemiesAtlas().findRegion("beetle"), i * 89, 0, 89, 64));
+        walkAnimation = new Animation(0.1f, frames);
         stateTime = 0;
-        setBounds(getX(), getY(), 16 / MarioBros.PPM, 16 / MarioBros.PPM);
+        setBounds(getX(), getY(), 89 / MarioBros.PPM, 64 / MarioBros.PPM);
         setToDestroy = false;
         destroyed = false;
         angle = 0;
     }
 
-    public void update(float dt){
+    public void update(float dt) {
         stateTime += dt;
-        if(setToDestroy && !destroyed){
+        if (setToDestroy && !destroyed) {
             world.destroyBody(b2body);
             destroyed = true;
-            setRegion(new TextureRegion(screen.getAtlas().findRegion("goomba"), 32, 0, 16, 16));
+            setRegion(new TextureRegion(screen.getEnemiesAtlas().findRegion("beetle"), 898, 0, 89, 64));
             stateTime = 0;
-        }
-        else if(!destroyed) {
+        } else if (!destroyed) {
             b2body.setLinearVelocity(velocity);
             setPosition(b2body.getPosition().x - getWidth() / 2, b2body.getPosition().y - getHeight() / 2);
             setRegion(walkAnimation.getKeyFrame(stateTime, true));
@@ -61,7 +59,7 @@ public class Goomba extends com.superbinogo.jungleboyadventure.Sprites.Enemies.E
 
         FixtureDef fdef = new FixtureDef();
         CircleShape shape = new CircleShape();
-        shape.setRadius(6 / MarioBros.PPM);
+        shape.setRadius(32 / MarioBros.PPM);
         fdef.filter.categoryBits = MarioBros.ENEMY_BIT;
         fdef.filter.maskBits = MarioBros.GROUND_BIT |
                 MarioBros.COIN_BIT |
@@ -89,11 +87,10 @@ public class Goomba extends com.superbinogo.jungleboyadventure.Sprites.Enemies.E
 
     }
 
-    public void draw(Batch batch){
-        if(!destroyed || stateTime < 1)
+    public void draw(Batch batch) {
+        if (!destroyed || stateTime < 1)
             super.draw(batch);
     }
-
 
 
     @Override
@@ -104,7 +101,7 @@ public class Goomba extends com.superbinogo.jungleboyadventure.Sprites.Enemies.E
 
     @Override
     public void hitByEnemy(Enemy enemy) {
-        if(enemy instanceof Turtle && ((Turtle) enemy).currentState == Turtle.State.MOVING_SHELL)
+        if (enemy instanceof Turtle && ((Turtle) enemy).currentState == Turtle.State.MOVING_SHELL)
             setToDestroy = true;
         else
             reverseVelocity(true, false);

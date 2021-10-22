@@ -1,4 +1,4 @@
-#Fri Oct 15 15:27:26 ICT 2021
+#Thu Oct 21 17:49:46 ICT 2021
 base.0=C\:\\Users\\mrhoa\\AndroidStudioProjects\\BinoRemake\\android\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex

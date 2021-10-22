@@ -79,11 +79,11 @@ public class B2WorldCreator {
             Rectangle rect = ((RectangleMapObject) object).getRectangle();
             goombas.add(new Goomba(screen, rect.getX() / MarioBros.PPM, rect.getY() / MarioBros.PPM));
         }
-        turtles = new Array<Turtle>();
-        for(MapObject object : map.getLayers().get("enemies").getObjects().getByType(RectangleMapObject.class)){
-            Rectangle rect = ((RectangleMapObject) object).getRectangle();
-            turtles.add(new Turtle(screen, rect.getX() / MarioBros.PPM, rect.getY() / MarioBros.PPM));
-        }
+//        turtles = new Array<Turtle>();
+//        for(MapObject object : map.getLayers().get("enemies").getObjects().getByType(RectangleMapObject.class)){
+//            Rectangle rect = ((RectangleMapObject) object).getRectangle();
+//            turtles.add(new Turtle(screen, rect.getX() / MarioBros.PPM, rect.getY() / MarioBros.PPM));
+//        }
     }
 
     public Array<Goomba> getGoombas() {
@@ -92,7 +92,7 @@ public class B2WorldCreator {
     public Array<Enemy> getEnemies(){
         Array<Enemy> enemies = new Array<Enemy>();
         enemies.addAll(goombas);
-        enemies.addAll(turtles);
+//        enemies.addAll(turtles);
         return enemies;
     }
 

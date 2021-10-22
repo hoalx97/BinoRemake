@@ -1,0 +1,55 @@
+
+PlayerPack.png
+size: 868, 640
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+flame_bullet
+  rotate: false
+  xy: 410, 127
+  size: 125, 32
+  orig: 125, 32
+  offset: 0, 0
+  index: -1
+infinity_shoot
+  rotate: false
+  xy: 0, 0
+  size: 180, 45
+  orig: 180, 45
+  offset: 0, 0
+  index: -1
+player_head
+  rotate: false
+  xy: 258, 34
+  size: 78, 75
+  orig: 78, 75
+  offset: 0, 0
+  index: -1
+player_max
+  rotate: false
+  xy: 0, 159
+  size: 865, 480
+  orig: 865, 480
+  offset: 0, 0
+  index: -1
+progress_bar
+  rotate: false
+  xy: 0, 109
+  size: 373, 17
+  orig: 373, 17
+  offset: 0, 0
+  index: -1
+progress_bar_container
+  rotate: false
+  xy: 0, 126
+  size: 410, 33
+  orig: 410, 33
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 0, 45
+  size: 258, 64
+  orig: 258, 64
+  offset: 0, 0
+  index: -1

@@ -38,4 +38,9 @@ public class Coin extends InteractiveTileObject {
             Hud.addScore(100);
         }
     }
+
+    @Override
+    public void update(float dt) {
+
+    }
 }

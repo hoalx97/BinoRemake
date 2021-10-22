@@ -31,7 +31,7 @@ public class FireBall extends Sprite {
         this.world = screen.getWorld();
         frames = new Array<TextureRegion>();
         for(int i = 0; i < 4; i++){
-            frames.add(new TextureRegion(screen.getAtlas().findRegion("fireball"), i * 8, 0, 8, 8));
+            frames.add(new TextureRegion(screen.getEnemiesAtlas().findRegion("fireball"), i * 8, 0, 8, 8));
         }
         fireAnimation = new Animation(0.2f, frames);
         setRegion(fireAnimation.getKeyFrame(0));

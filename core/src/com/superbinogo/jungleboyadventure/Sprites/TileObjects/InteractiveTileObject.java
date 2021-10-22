@@ -1,5 +1,6 @@
 package com.superbinogo.jungleboyadventure.Sprites.TileObjects;
 
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.maps.MapObject;
 import com.badlogic.gdx.maps.objects.RectangleMapObject;
 import com.badlogic.gdx.maps.tiled.TiledMap;
@@ -16,7 +17,7 @@ import com.superbinogo.jungleboyadventure.MarioBros;
 import com.superbinogo.jungleboyadventure.Screens.PlayScreen;
 import com.superbinogo.jungleboyadventure.Sprites.Mario;
 
-public abstract class InteractiveTileObject {
+public abstract class InteractiveTileObject extends Sprite {
     protected World world;
     protected TiledMap map;
     protected Rectangle bounds;
@@ -54,6 +55,7 @@ public abstract class InteractiveTileObject {
         filter.categoryBits = filterBit;
         fixture.setFilterData(filter);
     }
+    public abstract void update(float dt);
 
     public TiledMapTileLayer.Cell getCell(){
         TiledMapTileLayer layer = (TiledMapTileLayer) map.getLayers().get(1);
